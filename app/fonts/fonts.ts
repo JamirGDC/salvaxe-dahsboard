@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 export const helvetica = localFont({
-    src: './helvetica.ttf',
+    src: './Helvetica.ttf',
     variable: '--font-helvetica',
     display: 'swap',
 });
