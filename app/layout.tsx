@@ -8,9 +8,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html className={helvetica.className} suppressHydrationWarning>
+    <html className={`${helvetica.className} light`} data-theme="light" suppressHydrationWarning>
       <head></head>
-      <body>
+      <body className="light" data-theme="light">
         <Provider>{children}</Provider>
       </body>
     </html>
